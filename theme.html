@@ -176,7 +176,21 @@
               </section>
               {% endif %}
             </article>
-
+<div class="site-nav">
+              <script>
+  (function() {
+    var cx = '012678230877123824598:zuqhycwol34';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search> 
+            </div>
           {% elif post.type == 'page' %}
 
             <div class="blog-page">
@@ -196,21 +210,6 @@
         </div>
         
         <div class="four columns">
-        <div class="site-nav">
-              <script>
-  (function() {
-    var cx = '012678230877123824598:zuqhycwol34';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search> 
-            </div>
           <div class="sidebar">
             <div class="widget widget-about">
               <h2 class="widget-title"><a href="/">{{ site.author }}</a></h2>
