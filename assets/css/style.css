@@ -2634,7 +2634,8 @@ body {
 .search {
   height: 20px;
   height: 2.8125rem;
-  font-size: 120px;
+  width: 300px;
+  font-size: 20px;
   font-size: 0.75rem;
 }
 /* Header */
