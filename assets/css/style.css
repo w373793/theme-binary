@@ -2632,9 +2632,9 @@ body {
   padding-bottom: 1.875rem;
 }
 .search {
-  height: 2.8rem;
+  height: 5rem;
   margin-top: 1.875rem;
-  font-size: 18px;
+  font-size: 20px;
 }
 /* Header */
 .site-header,
