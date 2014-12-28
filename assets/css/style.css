@@ -2632,8 +2632,10 @@ body {
   padding-bottom: 1.875rem;
 }
 .search {
-  height: auto;
-  min-width: auto;
+  height: 20px;
+  height: 2.8125rem;
+  font-size: 120px;
+  font-size: 0.75rem;
 }
 /* Header */
 .site-header,
