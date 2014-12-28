@@ -30,25 +30,6 @@
     {% endif %}
   </head>
   <body>
-  <table id="google_cse">
-            <tr>
-                <td class="search">
-                 <script>
-  (function() {
-    var cx = '012678230877123824598:zuqhycwol34';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>  
-                </td>
-            </tr>
-        </table>
     {% if is_login %}
 
       {{ login_form }}
@@ -63,6 +44,21 @@
               <h1 class="site-title">
                 <a href="/">{{ site.name }}</a>
               </h1>
+            </div>
+            <div class="search">
+               <script>
+  (function() {
+    var cx = '012678230877123824598:zuqhycwol34';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>  
             </div>
             <nav class="site-nav">
               <ul class="nav-menu">
