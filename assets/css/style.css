@@ -2631,6 +2631,11 @@ body {
   padding-bottom: 30px;
   padding-bottom: 1.875rem;
 }
+.search {
+  height: 2.8rem;
+  margin-top: 1.875rem;
+  font-size: 18px;
+}
 /* Header */
 .site-header,
 .site-content {
